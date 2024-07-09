@@ -7,7 +7,7 @@ Welcome to Plenitudo Solutions, revolutionizing healthcare solutions! This proje
 
 ## Image
 
-![Figma]()
+![Figma](images/plenitudo-solutions.jpg)
 
 ## Features
 
