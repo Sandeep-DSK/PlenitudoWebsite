@@ -6,6 +6,7 @@ export default function Home() {
         <div>Empowering seamless healthcare experiences with cutting-edge technology</div>
         <div>plenitudo solutions</div>
       </div>
+
       {/* about */}
       <div>
         <div>Empowering healthcare</div>
@@ -17,6 +18,7 @@ export default function Home() {
         </p>
         <button>get in touch</button>
       </div>
+
       {/* services */}
       <div>
         <div>our services</div>
@@ -57,6 +59,19 @@ export default function Home() {
             <div>description</div>
           </div>
         </div>
+      </div>
+
+      {/* contact */}
+      <div>
+        <div>get in touch</div>
+        <div>
+          Reach out to us today to discover how our IT services can elevate your healthcare organization to new heights.
+        </div>
+        <div>Plenitudo Online Services Private Limited</div>
+        <div>conact@plenitudosolutions.com</div>
+        <div>Visakhapatnam, Andra Padesh India</div>
+        <div>Plenitudo</div>
+        <div>solutions</div>
       </div>
     </main>
   );
