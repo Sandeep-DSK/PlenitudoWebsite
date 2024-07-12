@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -30,7 +32,7 @@ export default function Home() {
         <div className="grid grid-row-3 grid-cols-3 border-2 border-red-500 gap-5">
           <div className="border-2 border-purple-500">
             <div>image</div>
-            <div>title</div>
+            <Link href={'/telemedicine-solutions'}>Telemedicine solutions</Link>
             <div>description</div>
           </div>
           <div className="border-2 border-purple-500">
