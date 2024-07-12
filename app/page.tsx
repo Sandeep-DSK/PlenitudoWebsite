@@ -47,17 +47,17 @@ export default function Home() {
           </div>
           <div className="border-2 border-purple-500">
             <div>image</div>
-            <div>title</div>
+            <Link href={'appointment-scheduling-system'}>Appointment scheduling system </Link>
             <div>description</div>
           </div>
           <div className="border-2 border-purple-500">
             <div>image</div>
-            <div>title</div>
+            <Link href={'remote-monitoring-solutions'}>Remote monitoring solutions</Link>
             <div>description</div>
           </div>
           <div className="border-2 border-purple-500">
             <div>image</div>
-            <div>title</div>
+            <Link href={'ehr-integration-services'}>EHR integration services</Link>
             <div>description</div>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function Telemedicine() {
+export default function Healthcare() {
   return (
     <main>
       <div>Healthcare analytics solutions</div>
