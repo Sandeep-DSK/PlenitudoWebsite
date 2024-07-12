@@ -31,34 +31,34 @@ export default function Home() {
         </span>
         <div className="grid grid-row-3 grid-cols-3 border-2 border-red-500 gap-5">
           <div className="border-2 border-purple-500">
-            <div>image</div>
+            <div className="border-2 h-48 w-48 bg-green-500">image</div>
             <Link href={'/telemedicine-solutions'}>Telemedicine solutions</Link>
-            <div>description</div>
+            <p>Revolutionizing healthcare with remote consultations.</p>
           </div>
           <div className="border-2 border-purple-500">
-            <div>image</div>
+            <div className="border-2 h-48 w-48 bg-green-500">image</div>
             <Link href={'/data-security-services'}>Data Security Services</Link>
-            <div>description</div>
+            <p>Protecting sensitive healthcare information.</p>
           </div>
           <div className="border-2 border-purple-500">
-            <div>image</div>
+            <div className="border-2 h-48 w-48 bg-green-500">image</div>
             <Link href={'/healthcare-analytics-solutions '}>Healthcare Analytics Solutions</Link>
-            <div>description</div>
+            <p>Unlocking insights for data-driven decisions.</p>
           </div>
           <div className="border-2 border-purple-500">
-            <div>image</div>
-            <Link href={'appointment-scheduling-system'}>Appointment scheduling system </Link>
-            <div>description</div>
+            <div className="border-2 h-48 w-48 bg-green-500">image</div>
+            <Link href={'appointment-scheduling-system'}>Appointment Scheduling System </Link>
+            <p>Efficiently manage patient appointments.</p>
           </div>
           <div className="border-2 border-purple-500">
-            <div>image</div>
-            <Link href={'remote-monitoring-solutions'}>Remote monitoring solutions</Link>
-            <div>description</div>
+            <div className="border-2 h-48 w-48 bg-green-500">image</div>
+            <Link href={'remote-monitoring-solutions'}>Remote Monitoring Solutions</Link>
+            <p>Monitoring patient health remotely.</p>
           </div>
           <div className="border-2 border-purple-500">
-            <div>image</div>
-            <Link href={'ehr-integration-services'}>EHR integration services</Link>
-            <div>description</div>
+            <div className="border-2 h-48 w-48 bg-green-500">image</div>
+            <Link href={'ehr-integration-services'}>EHR Integration Services</Link>
+            <p>Seamlessly integrate electronic health records.</p>
           </div>
         </div>
       </div>
