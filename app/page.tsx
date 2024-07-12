@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       {/* main */}
-      <div>
+      <div className="bg-[url(images/cta-main.jpg)] bg-auto bg-center h-screen w-screen">
         <div>Empowering seamless healthcare experiences with cutting-edge technology</div>
         <div>plenitudo solutions</div>
       </div>
