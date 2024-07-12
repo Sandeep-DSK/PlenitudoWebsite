@@ -37,12 +37,12 @@ export default function Home() {
           </div>
           <div className="border-2 border-purple-500">
             <div>image</div>
-            <div>title</div>
+            <Link href={'/data-security-services'}>Data Security Services</Link>
             <div>description</div>
           </div>
           <div className="border-2 border-purple-500">
             <div>image</div>
-            <div>title</div>
+            <Link href={'/healthcare-analytics-solutions '}>Healthcare Analytics Solutions</Link>
             <div>description</div>
           </div>
           <div className="border-2 border-purple-500">
