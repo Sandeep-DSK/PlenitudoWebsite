@@ -13,24 +13,7 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-  // const scrollToHome = () => {
-  //   gsap.to(window, { duration: 2, scrollTo: { y: '#home' } });
-  //   setIsOpen(!isOpen);
-  // };
-  // const scrollToAbout = () => {
-  //   gsap.to(window, { duration: 2, scrollTo: { y: '#about' } });
-  //   setIsOpen(!isOpen);
-  // };
-  // const scrollToServices = () => {
-  //   gsap.to(window, { duration: 2, scrollTo: { y: '#services' } });
-  //   setIsOpen(!isOpen);
-  // };
-  // const scrollToContact = () => {
-  //   gsap.to(window, { duration: 2, scrollTo: { y: '#contact' } });
-  //   setIsOpen(!isOpen);
-  // };
-
-  const scrollTo = (selector) => {
+  const scrollTo = (selector: string) => {
     gsap.to(window, { duration: 2, scrollTo: { y: selector } });
     setIsOpen(false);
   };
