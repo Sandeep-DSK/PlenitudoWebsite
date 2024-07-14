@@ -13,21 +13,26 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-  const scrollToHome = () => {
-    gsap.to(window, { duration: 2, scrollTo: { y: '#home' } });
-    setIsOpen(!isOpen);
-  };
-  const scrollToAbout = () => {
-    gsap.to(window, { duration: 2, scrollTo: { y: '#about' } });
-    setIsOpen(!isOpen);
-  };
-  const scrollToServices = () => {
-    gsap.to(window, { duration: 2, scrollTo: { y: '#services' } });
-    setIsOpen(!isOpen);
-  };
-  const scrollToContact = () => {
-    gsap.to(window, { duration: 2, scrollTo: { y: '#contact' } });
-    setIsOpen(!isOpen);
+  // const scrollToHome = () => {
+  //   gsap.to(window, { duration: 2, scrollTo: { y: '#home' } });
+  //   setIsOpen(!isOpen);
+  // };
+  // const scrollToAbout = () => {
+  //   gsap.to(window, { duration: 2, scrollTo: { y: '#about' } });
+  //   setIsOpen(!isOpen);
+  // };
+  // const scrollToServices = () => {
+  //   gsap.to(window, { duration: 2, scrollTo: { y: '#services' } });
+  //   setIsOpen(!isOpen);
+  // };
+  // const scrollToContact = () => {
+  //   gsap.to(window, { duration: 2, scrollTo: { y: '#contact' } });
+  //   setIsOpen(!isOpen);
+  // };
+
+  const scrollTo = (selector) => {
+    gsap.to(window, { duration: 2, scrollTo: { y: selector } });
+    setIsOpen(false);
   };
 
   return (
@@ -35,7 +40,10 @@ const Navbar = () => {
       {/* mobile nav */}
       <div className="h-[100px] w-screen flex justify-between items-center px-10 bg-white sm:hidden fixed z-10">
         {/* logo */}
-        <div onClick={scrollToHome} className="text-[32px] leading-3 tracking-tighter font-semibold cursor-pointer">
+        <div
+          onClick={() => scrollTo('#home')}
+          className="text-[32px] leading-3 tracking-tighter font-semibold cursor-pointer border-2 border-red-500`"
+        >
           Plenitudo Solutions
         </div>
         {/* menu */}
@@ -63,10 +71,10 @@ const Navbar = () => {
             </div>
             <div className="flex flex-col h-screen justify-center items-center">
               <ul className="flex flex-col justify-between text-[48px] leading-[48px] text-whitesmoke font-dahlia tracking-tight space-y-1 items-center cursor-pointer">
-                <li onClick={scrollToHome}>Home</li>
-                <li onClick={scrollToAbout}>About</li>
-                <li onClick={scrollToServices}>Sevices</li>
-                <li onClick={scrollToContact}>Contact</li>
+                <li onClick={() => scrollTo('#home')}>Home</li>
+                <li onClick={() => scrollTo('#about')}>About</li>
+                <li onClick={() => scrollTo('#services')}>Services</li>
+                <li onClick={() => scrollTo('#contact')}>Contact</li>
               </ul>
             </div>
           </div>
