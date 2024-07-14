@@ -21,8 +21,8 @@ const Navbar = () => {
     gsap.to(window, { duration: 2, scrollTo: { y: '#about' } });
     setIsOpen(!isOpen);
   };
-  const scrollToMenu = () => {
-    gsap.to(window, { duration: 2, scrollTo: { y: '#menu' } });
+  const scrollToServices = () => {
+    gsap.to(window, { duration: 2, scrollTo: { y: '#services' } });
     setIsOpen(!isOpen);
   };
   const scrollToContact = () => {
@@ -63,7 +63,7 @@ const Navbar = () => {
               <ul className="flex flex-col justify-between text-[48px] leading-[48px] text-whitesmoke font-dahlia tracking-tight space-y-1 items-center cursor-pointer">
                 <li onClick={scrollToHome}>Home</li>
                 <li onClick={scrollToAbout}>About</li>
-                <li onClick={scrollToMenu}>Sevices</li>
+                <li onClick={scrollToServices}>Sevices</li>
                 <li onClick={scrollToContact}>Contact</li>
               </ul>
             </div>
