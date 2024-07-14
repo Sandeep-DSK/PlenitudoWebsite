@@ -11,6 +11,7 @@ export default function Home() {
       <div className="bg-[url(images/cta-main.jpg)] bg-cover bg-center h-screen w-screen">
         <div>Empowering seamless healthcare experiences with cutting-edge technology</div>
         <div>plenitudo solutions</div>
+        <div>view services</div>
       </div>
 
       {/* about */}
