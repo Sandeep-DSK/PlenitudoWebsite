@@ -35,7 +35,9 @@ const Navbar = () => {
       {/* mobile nav */}
       <div className="h-[100px] w-screen flex justify-between items-center px-10 bg-white sm:hidden fixed z-10">
         {/* logo */}
-        <div>Plenitudo Solutions</div>
+        <div onClick={scrollToHome} className="text-[32px] leading-3 tracking-tighter font-semibold cursor-pointer">
+          Plenitudo Solutions
+        </div>
         {/* menu */}
         <button className="text-neutral-200" onClick={toggleMenu}>
           <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">

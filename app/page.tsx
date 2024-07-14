@@ -8,8 +8,10 @@ export default function Home() {
       <Navbar></Navbar>
 
       {/* main */}
-      <div className="bg-[url(images/cta-main.jpg)] bg-cover bg-center h-screen w-screen">
-        <div>Empowering seamless healthcare experiences with cutting-edge technology</div>
+      <div className="bg-[url(images/cta-main.jpg)] bg-cover bg-center h-screen w-screen flex flex-col justify-center items-center brightness-95 contrast-75">
+        <div className="text-black text-[32px]">
+          Empowering seamless healthcare experiences with cutting-edge technology
+        </div>
         <div>plenitudo solutions</div>
         {/* !! will need to use gsap smoothscroll */}
         <Link href={'/'}>view services</Link>
