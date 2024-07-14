@@ -10,7 +10,7 @@ export default function Telemedicine() {
         without the need for in-person visits. Improve patient outcomes and streamline healthcare delivery with our
         innovative telemedicine technology.
       </p>
-      <button>Schedule Appointment</button>
+      <Link href={'/scheduling'}>Schedule Appointment</Link>
       <Link href="/">go back</Link>
     </main>
   );
