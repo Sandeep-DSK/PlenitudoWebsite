@@ -22,10 +22,9 @@ const Navbar = () => {
     <>
       {/* mobile nav */}
       <div className="h-[100px] w-screen flex justify-between items-center px-10 bg-white sm:hidden fixed z-10">
-        {/* logo */}
         <div
           onClick={() => scrollTo('#home')}
-          className="text-[32px] leading-3 tracking-tighter font-semibold cursor-pointer border-2 border-red-500`"
+          className="text-[32px] leading-3 tracking-tighter font-semibold cursor-pointer"
         >
           Plenitudo Solutions
         </div>
@@ -63,6 +62,22 @@ const Navbar = () => {
           </div>
         )}
       </div>
+
+      {/* web nav */}
+      <nav className="hidden sm:flex sm:justify-between sm:items-center sm:px-10 text-black sm:w-[100%] fixed bg-white h-[60px] z-10">
+        <div
+          onClick={() => scrollTo('#home')}
+          className="text-[32px] leading-3 tracking-tighter font-semibold cursor-pointer"
+        >
+          Plenitudo Solutions
+        </div>
+        <ul className="flex justify-center items-center space-x-5 h-[40px] text-[24px] cursor-pointer font-geistmono">
+          <li onClick={() => scrollTo('#home')}>Home</li>
+          <li onClick={() => scrollTo('#about')}>About</li>
+          <li onClick={() => scrollTo('#services')}>Services</li>
+          <li onClick={() => scrollTo('#contact')}>Contact</li>
+        </ul>
+      </nav>
     </>
   );
 };
