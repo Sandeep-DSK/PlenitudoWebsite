@@ -78,36 +78,96 @@ export default function Home() {
           Enhance your healthcare operations with our comprehensive IT solutions designed to optimize efficiency,
           security, and patient care delivery.
         </p>
-        <div className="grid sm:grid-row-3 sm:grid-cols-3 grid-cols-1 border-2 border-red-500 gap-5 pt-5">
-          <div className="border-2 border-purple-500">
-            <div className="border-2 h-48 w-48 bg-green-500">image</div>
-            <Link href={'/telemedicine-solutions'}>Telemedicine solutions</Link>
-            <p>Revolutionizing healthcare with remote consultations.</p>
+        <div className="grid sm:grid-row-3 sm:grid-cols-3 grid-cols-1 gap-5 pt-5">
+          <div>
+            <Image
+              src="/images/telemedicine_solution.jpg"
+              alt="Background"
+              className="mx-auto sm:w-[95%] sm:h-[95%] w-[350px] h-[350px] object-cover object-center"
+              width={1000}
+              height={1000}
+            />
+            <Link href={'/telemedicine-solutions'} className="text-black font-bold text-[20px] capitalize">
+              Telemedicine solutions
+            </Link>
+            <p className="font-medium text-[16px] leading-[20px] tracking-wider text-grey">
+              Revolutionizing healthcare with remote consultations.
+            </p>
           </div>
-          <div className="border-2 border-purple-500">
-            <div className="border-2 h-48 w-48 bg-green-500">image</div>
-            <Link href={'/data-security-services'}>Data Security Services</Link>
-            <p>Protecting sensitive healthcare information.</p>
+          <div>
+            <Image
+              src="/images/data-security-services.jpg"
+              alt="Background"
+              className="mx-auto sm:w-[95%] sm:h-[95%] w-[350px] h-[350px] object-cover object-center"
+              width={1000}
+              height={1000}
+            />
+            <Link href={'/data-security-services'} className="text-black font-bold text-[20px] capitalize">
+              Data Security Services
+            </Link>
+            <p className="font-medium text-[16px] leading-[20px] tracking-wider text-grey">
+              Protecting sensitive healthcare information.
+            </p>
           </div>
-          <div className="border-2 border-purple-500">
-            <div className="border-2 h-48 w-48 bg-green-500">image</div>
-            <Link href={'/healthcare-analytics-solutions '}>Healthcare Analytics Solutions</Link>
-            <p>Unlocking insights for data-driven decisions.</p>
+          <div>
+            <Image
+              src="/images/healthcare-analytics-solutions.jpg"
+              alt="Background"
+              className="mx-auto sm:w-[95%] sm:h-[95%] w-[350px] h-[350px] object-cover object-center"
+              width={1000}
+              height={1000}
+            />
+            <Link href={'/healthcare-analytics-solutions'} className="text-black font-bold text-[20px] capitalize">
+              Healthcare Analytics Solutions
+            </Link>
+            <p className="font-medium text-[16px] leading-[20px] tracking-wider text-grey">
+              Unlocking insights for data-driven decisions.
+            </p>
           </div>
-          <div className="border-2 border-purple-500">
-            <div className="border-2 h-48 w-48 bg-green-500">image</div>
-            <Link href={'appointment-scheduling-system'}>Appointment Scheduling System </Link>
-            <p>Efficiently manage patient appointments.</p>
+          <div>
+            <Image
+              src="/images/appointment-scheduling-system.jpg"
+              alt="Background"
+              className="mx-auto sm:w-[95%] sm:h-[95%] w-[350px] h-[350px] object-cover object-center"
+              width={1000}
+              height={1000}
+            />
+            <Link href={'appointment-scheduling-system'} className="text-black font-bold text-[20px] capitalize">
+              Appointment Scheduling System{' '}
+            </Link>
+            <p className="font-medium text-[16px] leading-[20px] tracking-wider text-grey">
+              Efficiently manage patient appointments.
+            </p>
           </div>
-          <div className="border-2 border-purple-500">
-            <div className="border-2 h-48 w-48 bg-green-500">image</div>
-            <Link href={'remote-monitoring-solutions'}>Remote Monitoring Solutions</Link>
-            <p>Monitoring patient health remotely.</p>
+          <div>
+            <Image
+              src="/images/remote-monitoring-solutions.jpg"
+              alt="Background"
+              className="mx-auto sm:w-[95%] sm:h-[95%] w-[350px] h-[350px] object-cover object-center"
+              width={1000}
+              height={1000}
+            />
+            <Link href={'remote-monitoring-solutions'} className="text-black font-bold text-[20px] capitalize">
+              Remote Monitoring Solutions
+            </Link>
+            <p className="font-medium text-[16px] leading-[20px] tracking-wider text-grey">
+              Monitoring patient health remotely.
+            </p>
           </div>
-          <div className="border-2 border-purple-500">
-            <div className="border-2 h-48 w-48 bg-green-500">image</div>
-            <Link href={'ehr-integration-services'}>EHR Integration Services</Link>
-            <p>Seamlessly integrate electronic health records.</p>
+          <div>
+            <Image
+              src="/images/ehr-integration-services.jpg"
+              alt="Background"
+              className="mx-auto sm:w-[95%] sm:h-[95%] w-[350px] h-[350px] object-cover object-center"
+              width={1000}
+              height={1000}
+            />
+            <Link href={'ehr-integration-services'} className="text-black font-bold text-[20px] capitalize">
+              EHR Integration Services
+            </Link>
+            <p className="font-medium text-[16px] leading-[20px] tracking-wider text-grey">
+              Seamlessly integrate electronic health records.
+            </p>
           </div>
         </div>
       </div>
