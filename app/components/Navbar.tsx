@@ -21,15 +21,15 @@ const Navbar = () => {
   return (
     <>
       {/* mobile nav */}
-      <div className="h-[100px] w-screen flex justify-between items-center px-10 bg-white sm:hidden fixed z-50">
+      <div className="h-[100px] w-screen flex justify-between items-center px-5 bg-white sm:hidden fixed z-50">
         <div
           onClick={() => scrollTo('#home')}
-          className="text-[32px] leading-3 tracking-tighter font-semibold cursor-pointer"
+          className="text-[20px] leading-3 tracking-normal font-black cursor-pointer uppercase"
         >
           Plenitudo Solutions
         </div>
         {/* menu */}
-        <button className="text-neutral-200" onClick={toggleMenu}>
+        <button className="text-neutral-200 pr-5" onClick={toggleMenu}>
           <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M3.86768 22.5V20H26.3677V22.5H3.86768ZM3.86768 16.25V13.75H26.3677V16.25H3.86768ZM3.86768 10V7.5H26.3677V10H3.86768Z"
@@ -52,7 +52,7 @@ const Navbar = () => {
               </button>
             </div>
             <div className="flex flex-col h-screen justify-center items-center">
-              <ul className="flex flex-col justify-between text-[48px] leading-[48px] text-whitesmoke font-dahlia tracking-tight space-y-1 items-center cursor-pointer">
+              <ul className="flex flex-col justify-between text-[48px] leading-[48px] text-whitesmoke font-dahlia tracking-tight space-y-5 items-center cursor-pointer">
                 <li onClick={() => scrollTo('#home')}>Home</li>
                 <li onClick={() => scrollTo('#about')}>About</li>
                 <li onClick={() => scrollTo('#services')}>Services</li>

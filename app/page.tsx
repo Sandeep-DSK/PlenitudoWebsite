@@ -39,7 +39,7 @@ export default function Home() {
               view services
             </div>
           </div>
-          <div className="text-black font-black text-[80px] leading-[72px] absolute bottom-5 ml-1">
+          <div className="text-black font-black text-[76px] leading-[64px] absolute bottom-5 ml-3">
             Plenitudo Solutions
           </div>
         </div>
@@ -68,14 +68,17 @@ export default function Home() {
       </div>
 
       {/* services */}
-      <div className="sm:h-screen h-full w-screen" id="services">
-        <div>our services</div>
-        <div>Transforming Healthcare IT</div>
-        <span>
+      <div
+        className="sm:h-screen h-full w-screen flex flex-col justify-start items-start pt-32 px-5 gap-1"
+        id="services"
+      >
+        <div className="text-green font-bold text-[16px] uppercase">our services</div>
+        <div className="font-bold text-[24px] leading-[30px] tracking-wide">Transforming Healthcare IT</div>
+        <p className="font-medium text-[18px] leading-[24px] tracking-wider text-grey">
           Enhance your healthcare operations with our comprehensive IT solutions designed to optimize efficiency,
           security, and patient care delivery.
-        </span>
-        <div className="grid sm:grid-row-3 sm:grid-cols-3 grid-cols-1 border-2 border-red-500 gap-5">
+        </p>
+        <div className="grid sm:grid-row-3 sm:grid-cols-3 grid-cols-1 border-2 border-red-500 gap-5 pt-5">
           <div className="border-2 border-purple-500">
             <div className="border-2 h-48 w-48 bg-green-500">image</div>
             <Link href={'/telemedicine-solutions'}>Telemedicine solutions</Link>
