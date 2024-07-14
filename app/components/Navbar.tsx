@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <>
       {/* mobile nav */}
-      <div className="h-[100px] w-screen flex justify-between items-center px-10 bg-white sm:hidden fixed z-10">
+      <div className="h-[100px] w-screen flex justify-between items-center px-10 bg-white sm:hidden fixed z-50">
         <div
           onClick={() => scrollTo('#home')}
           className="text-[32px] leading-3 tracking-tighter font-semibold cursor-pointer"
@@ -64,7 +64,7 @@ const Navbar = () => {
       </div>
 
       {/* web nav */}
-      <nav className="hidden sm:flex sm:justify-between sm:items-center sm:px-10 text-black sm:w-[100%] fixed bg-white h-[60px] z-10">
+      <nav className="hidden sm:flex sm:justify-between sm:items-center sm:px-10 text-black sm:w-[100%] fixed bg-white h-[60px] z-50">
         <div
           onClick={() => scrollTo('#home')}
           className="text-[32px] leading-3 tracking-tighter font-semibold cursor-pointer"
