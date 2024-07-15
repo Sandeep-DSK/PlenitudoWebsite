@@ -45,7 +45,7 @@ export default function ContactForm() {
 
   if (submitted) {
     return (
-      <div className="max-w-md mx-auto mt-8 p-4 bg-greenpl-100 text-greenpl-700 rounded-md">
+      <div className="max-w-md mx-auto mt-8 p-4 bg-green-100 text-green-700 font-medium rounded-md">
         Thank you for your message! We&apos;ll get back to you soon.
       </div>
     );
