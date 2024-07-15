@@ -1,8 +1,10 @@
 import Link from 'next/link';
+import Navbar from '../components/Navbar';
 
 export default function Telemedicine() {
   return (
     <main>
+      <Navbar />
       <div>Telemedicine solutions</div>
       <p>
         Our telemedicine solutions connect patients and healthcare providers seamlessly, ensuring access to quality care

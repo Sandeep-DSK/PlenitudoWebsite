@@ -3,18 +3,28 @@
 import React, { useState } from 'react';
 import { gsap } from 'gsap';
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
+import { useRouter, usePathname } from 'next/navigation';
 
 gsap.registerPlugin(ScrollToPlugin);
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const router = useRouter();
+  const pathname = usePathname();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
   const scrollTo = (selector: string) => {
-    gsap.to(window, { duration: 2, scrollTo: { y: selector } });
+    if (pathname !== '/') {
+      router.push('/');
+      setTimeout(() => {
+        gsap.to(window, { duration: 2, scrollTo: { y: selector } });
+      }, 100);
+    } else {
+      gsap.to(window, { duration: 2, scrollTo: { y: selector } });
+    }
     setIsOpen(false);
   };
 
