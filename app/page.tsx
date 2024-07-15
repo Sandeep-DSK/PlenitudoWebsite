@@ -174,7 +174,7 @@ export default function Home() {
       </div>
 
       {/* contact */}
-      <div className="h-screen w-screen flex flex-col justify-start items-start pt-32 px-5 gap-1" id="contact">
+      <div className="h-full w-screen flex flex-col justify-start items-start pt-32 px-5 gap-1" id="contact">
         <div className="text-greenpl font-bold text-[16px] uppercase">get in touch</div>
         <div className="font-bold text-[24px] leading-[30px] tracking-wide">
           Plenitudo Online Services Private Limited
@@ -183,10 +183,21 @@ export default function Home() {
           Reach out to us today to discover how our IT services can elevate your healthcare organization to new heights.
         </div>
         <ContactForm />
-        {/* <div>conact@plenitudosolutions.com</div>
-        <div>Visakhapatnam, Andra Padesh India</div>
-        <div>Plenitudo</div>
-        <div>solutions</div> */}
+        <div className="max-w-xl my-8 text-grey font-medium rounded-md underline">
+          <div>
+            <a href="mailto:conact@plenitudosolutions.com">conact@plenitudosolutions.com</a>
+          </div>
+          <div>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Visakhapatnam,+Andhra+Pradesh+India"
+              target="_blank"
+            >
+              Visakhapatnam, Andhra Pradesh India
+            </a>
+          </div>
+        </div>
+        <div className="hidden">Plenitudo</div>
+        <div className="hidden">solutions</div>
       </div>
     </main>
   );
