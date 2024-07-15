@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Image from 'next/image';
 import { gsap } from 'gsap';
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
+import ContactForm from './components/ContactForm';
 
 gsap.registerPlugin(ScrollToPlugin);
 
@@ -34,7 +35,7 @@ export default function Home() {
             </div>
             <div
               onClick={() => scrollTo('#services')}
-              className="cursor-pointer text-white uppercase flex items-center justify-center h-[60px] w-[200px] rounded-3xl bg-green text-[16px] font-bold"
+              className="cursor-pointer text-white uppercase flex items-center justify-center h-[60px] w-[200px] rounded-3xl bg-greenpl hover:bg-green-800 text-[16px] font-bold"
             >
               view services
             </div>
@@ -47,7 +48,7 @@ export default function Home() {
 
       {/* about */}
       <div className="h-full w-screen flex flex-col justify-start items-start pt-32 px-5 gap-1" id="about">
-        <div className="text-green font-bold text-[16px] uppercase">Empowering healthcare</div>
+        <div className="text-greenpl font-bold text-[16px] uppercase">Empowering healthcare</div>
         <div className="font-bold text-[24px] leading-[30px] tracking-wide">Revolutionizing Healthcare Solutions</div>
         <p className="font-medium text-[18px] leading-[24px] tracking-wider text-grey">
           Plenitudo Solutions is dedicated to providing cutting-edge IT services tailored for the healthcare industry.
@@ -72,7 +73,7 @@ export default function Home() {
         className="sm:h-screen h-full w-screen flex flex-col justify-start items-start pt-32 px-5 gap-1"
         id="services"
       >
-        <div className="text-green font-bold text-[16px] uppercase">our services</div>
+        <div className="text-greenpl font-bold text-[16px] uppercase">our services</div>
         <div className="font-bold text-[24px] leading-[30px] tracking-wide">Transforming Healthcare IT</div>
         <p className="font-medium text-[18px] leading-[24px] tracking-wider text-grey">
           Enhance your healthcare operations with our comprehensive IT solutions designed to optimize efficiency,
@@ -83,7 +84,7 @@ export default function Home() {
             <Image
               src="/images/telemedicine_solution.jpg"
               alt="Background"
-              className="mx-auto sm:w-[95%] sm:h-[95%] w-[350px] h-[350px] object-cover object-center"
+              className="mx-auto sm:w-[95%] sm:h-[95%] w-[350px] h-[350px] object-cover object-center rounded-xl"
               width={1000}
               height={1000}
             />
@@ -98,7 +99,7 @@ export default function Home() {
             <Image
               src="/images/data-security-services.jpg"
               alt="Background"
-              className="mx-auto sm:w-[95%] sm:h-[95%] w-[350px] h-[350px] object-cover object-center"
+              className="mx-auto sm:w-[95%] sm:h-[95%] w-[350px] h-[350px] object-cover object-center rounded-xl"
               width={1000}
               height={1000}
             />
@@ -113,7 +114,7 @@ export default function Home() {
             <Image
               src="/images/healthcare-analytics-solutions.jpg"
               alt="Background"
-              className="mx-auto sm:w-[95%] sm:h-[95%] w-[350px] h-[350px] object-cover object-center"
+              className="mx-auto sm:w-[95%] sm:h-[95%] w-[350px] h-[350px] object-cover object-center rounded-xl"
               width={1000}
               height={1000}
             />
@@ -128,7 +129,7 @@ export default function Home() {
             <Image
               src="/images/appointment-scheduling-system.jpg"
               alt="Background"
-              className="mx-auto sm:w-[95%] sm:h-[95%] w-[350px] h-[350px] object-cover object-center"
+              className="mx-auto sm:w-[95%] sm:h-[95%] w-[350px] h-[350px] object-cover object-center rounded-xl"
               width={1000}
               height={1000}
             />
@@ -143,7 +144,7 @@ export default function Home() {
             <Image
               src="/images/remote-monitoring-solutions.jpg"
               alt="Background"
-              className="mx-auto sm:w-[95%] sm:h-[95%] w-[350px] h-[350px] object-cover object-center"
+              className="mx-auto sm:w-[95%] sm:h-[95%] w-[350px] h-[350px] object-cover object-center rounded-xl"
               width={1000}
               height={1000}
             />
@@ -158,7 +159,7 @@ export default function Home() {
             <Image
               src="/images/ehr-integration-services.jpg"
               alt="Background"
-              className="mx-auto sm:w-[95%] sm:h-[95%] w-[350px] h-[350px] object-cover object-center"
+              className="mx-auto sm:w-[95%] sm:h-[95%] w-[350px] h-[350px] object-cover object-center rounded-xl"
               width={1000}
               height={1000}
             />
@@ -173,16 +174,19 @@ export default function Home() {
       </div>
 
       {/* contact */}
-      <div className="h-screen w-screen" id="contact">
-        <div>get in touch</div>
-        <div>
+      <div className="h-screen w-screen flex flex-col justify-start items-start pt-32 px-5 gap-1" id="contact">
+        <div className="text-greenpl font-bold text-[16px] uppercase">get in touch</div>
+        <div className="font-bold text-[24px] leading-[30px] tracking-wide">
+          Plenitudo Online Services Private Limited
+        </div>
+        <div className="font-medium text-[18px] leading-[24px] tracking-wider text-grey">
           Reach out to us today to discover how our IT services can elevate your healthcare organization to new heights.
         </div>
-        <div>Plenitudo Online Services Private Limited</div>
-        <div>conact@plenitudosolutions.com</div>
+        <ContactForm />
+        {/* <div>conact@plenitudosolutions.com</div>
         <div>Visakhapatnam, Andra Padesh India</div>
         <div>Plenitudo</div>
-        <div>solutions</div>
+        <div>solutions</div> */}
       </div>
     </main>
   );
