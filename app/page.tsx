@@ -116,7 +116,7 @@ export default function Home() {
             </p>
             <Link
               href={'/telemedicine-solutions'}
-              className="text-greenpl font-bold text-[20px] uppercase hover:underline sm:text-[16px]"
+              className="text-greenpl font-bold text-[14px] uppercase hover:underline sm:text-[16px]"
             >
               Learn more
             </Link>
@@ -141,7 +141,7 @@ export default function Home() {
             </p>
             <Link
               href={'/data-security-services'}
-              className="text-greenpl font-bold text-[20px] uppercase hover:underline sm:text-[16px]"
+              className="text-greenpl font-bold text-[14px] uppercase hover:underline sm:text-[16px]"
             >
               learn more
             </Link>
@@ -166,7 +166,7 @@ export default function Home() {
             </p>
             <Link
               href={'/healthcare-analytics-solutions'}
-              className="text-greenpl font-bold text-[20px] uppercase hover:underline sm:text-[16px]"
+              className="text-greenpl font-bold text-[14px] uppercase hover:underline sm:text-[16px]"
             >
               learn more
             </Link>
@@ -191,7 +191,7 @@ export default function Home() {
             </p>
             <Link
               href={'appointment-scheduling-system'}
-              className="text-greenpl font-bold text-[20px] uppercase hover:underline sm:text-[16px]"
+              className="text-greenpl font-bold text-[14px] uppercase hover:underline sm:text-[16px]"
             >
               learn more
             </Link>
@@ -216,7 +216,7 @@ export default function Home() {
             </p>
             <Link
               href={'remote-monitoring-solutions'}
-              className="text-greenpl font-bold text-[20px] uppercase hover:underline sm:text-[16px]"
+              className="text-greenpl font-bold text-[14px] uppercase hover:underline sm:text-[16px]"
             >
               learn more
             </Link>
@@ -241,7 +241,7 @@ export default function Home() {
             </p>
             <Link
               href={'ehr-integration-services'}
-              className="text-greenpl font-bold text-[20px] uppercase hover:underline sm:text-[16px]"
+              className="text-greenpl font-bold text-[14px] uppercase hover:underline sm:text-[16px]"
             >
               learn more
             </Link>
