@@ -20,7 +20,7 @@ export default function Calendly() {
         style={{ minWidth: '350px', height: '700px' }}
       ></div>
       <div
-        className="calendly-inline-widget"
+        className="calendly-inline-widget hidden"
         data-url="https://calendly.com/srjezza/test"
         style={{ minWidth: '350px', height: '800px' }}
       ></div>
