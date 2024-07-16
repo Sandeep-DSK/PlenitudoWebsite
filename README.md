@@ -14,6 +14,8 @@ Welcome to Plenitudo Solutions, revolutionizing healthcare solutions! This proje
 - **Responsive Design**: Ensure a seamless experience across devices.
 - **Interactive UI**: Engage users with smooth transitions and interactive elements.
 - **Fast Loading**: Optimized for performance with Next.js and Vercel.
+- **Form Requests**: Gathering users data and saving to Google Sheets.
+- **Scheduling**: Embedded Calendly for client scheduling.
 
 ## Technologies Used
 
