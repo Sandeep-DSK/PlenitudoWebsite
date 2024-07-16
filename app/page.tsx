@@ -35,7 +35,7 @@ export default function Home() {
             </div>
             <div
               onClick={() => scrollTo('#services')}
-              className="cursor-pointer text-white uppercase flex items-center justify-center h-[60px] w-[200px] rounded-3xl bg-greenpl hover:bg-green-800 text-[16px] font-bold"
+              className="cursor-pointer text-white uppercase flex items-center justify-center h-[60px] w-[200px] rounded-3xl bg-greenpl hover:bg-green-800 text-[16px] font-bold sm:text-[20px] sm:font-medium"
             >
               view services
             </div>
