@@ -85,7 +85,12 @@ const Navbar = () => {
           <li onClick={() => scrollTo('#home')}>Home</li>
           <li onClick={() => scrollTo('#about')}>About</li>
           <li onClick={() => scrollTo('#services')}>Services</li>
-          <li onClick={() => scrollTo('#contact')}>Contact</li>
+          <li
+            onClick={() => scrollTo('#contact')}
+            className="border-2 px-2 rounded-full border-black hover:bg-greenpl hover:border-greenpl hover:text-white"
+          >
+            Contact
+          </li>
         </ul>
       </nav>
     </>

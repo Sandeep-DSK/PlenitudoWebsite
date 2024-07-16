@@ -52,8 +52,8 @@ export default function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="mx-auto mt-8 w-full lowercase">
-      <div className="mb-4">
+    <form onSubmit={handleSubmit} className="mx-auto mt-8 w-full sm:w-[400px] lowercase">
+      <div className="mb-4 sm:mb-1">
         <label htmlFor="name" className="block mb-1 font-medium">
           Name
         </label>
@@ -67,7 +67,7 @@ export default function ContactForm() {
           className="w-full px-3 py-2 border-2 border-black rounded-xl"
         />
       </div>
-      <div className="mb-4">
+      <div className="mb-4 sm:mb-1">
         <label htmlFor="email" className="block mb-1 font-medium">
           Email
         </label>
@@ -81,7 +81,7 @@ export default function ContactForm() {
           className="w-full px-3 py-2 border-2 border-black rounded-xl"
         />
       </div>
-      <div className="mb-4">
+      <div className="mb-4 sm:mb-1">
         <label htmlFor="phone" className="block mb-1 font-medium">
           Phone Number
         </label>
@@ -95,7 +95,7 @@ export default function ContactForm() {
           className="w-full px-3 py-2 border-2 border-black rounded-xl"
         />
       </div>
-      <div className="mb-4">
+      <div className="mb-4 sm:mb-1">
         <label htmlFor="message" className="block mb-1 font-medium">
           Message
         </label>
@@ -111,7 +111,7 @@ export default function ContactForm() {
       </div>
       <button
         type="submit"
-        className="w-full px-4 py-2 font-semibold text-white uppercase bg-greenpl rounded-xl hover:bg-green-800"
+        className="w-full sm:w-[100px] px-4 py-2 font-semibold text-white uppercase bg-greenpl rounded-xl hover:bg-green-800 sm:mt-2"
       >
         Submit
       </button>

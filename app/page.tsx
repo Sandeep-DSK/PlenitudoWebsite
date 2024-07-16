@@ -250,16 +250,49 @@ export default function Home() {
       </div>
 
       {/* contact */}
-      <div className="h-full w-screen flex flex-col justify-start items-start pt-32 px-5 gap-1" id="contact">
-        <div className="text-greenpl font-bold text-[16px] uppercase">get in touch</div>
-        <div className="font-bold text-[24px] leading-[30px] tracking-wide">
-          Plenitudo Online Services Private Limited
+      <div
+        className="h-full w-screen flex flex-col justify-start items-start pt-32 sm:pt-10 px-5 sm:px-10 gap-1 sm:relative"
+        id="contact"
+      >
+        <div className="sm:flex sm:justify-start sm:items-start sm:w-full">
+          {/* contact content */}
+          <div className="sm:w-[700px] sm:h-[200px] sm:pt-10 sm:mr-20">
+            <div className="text-greenpl font-bold text-[16px] uppercase sm:lowercase sm:text-[64px]">get in touch</div>
+            <div className="font-bold text-[24px] leading-[30px] tracking-wide sm:text-[32px] sm:hidden">
+              Plenitudo Online Services Private Limited
+            </div>
+            <div className="font-medium text-[18px] leading-[24px] tracking-wider text-grey sm:text-black sm:font-medium sm:text-[32px] sm:leading-[30px]">
+              Reach out to us today to discover how our IT services can elevate your healthcare organization to new
+              heights.
+            </div>
+
+            {/* company info web */}
+            <div className="max-w-xl my-8 text-grey font-medium hidden sm:block sm:pt-32">
+              <div className="font-bold text-[24px] leading-[30px] tracking-wide sm:text-[20px] sm:leading-[20px] sm:uppercase sm:text-black sm:pb-5">
+                Plenitudo Online Services Private Limited
+              </div>
+              <div className="underline">
+                <a href="mailto:conact@plenitudosolutions.com">conact@plenitudosolutions.com</a>
+              </div>
+              <div className="underline">
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=Visakhapatnam,+Andhra+Pradesh+India"
+                  target="_blank"
+                >
+                  Visakhapatnam, Andhra Pradesh India
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="sm:flex sm:flex-col sm:justify-center sm:mt-[72px]">
+            <span className="hidden sm:block sm:text-center sm:text-black sm:text-[24px] sm:font-semibold sm:uppercase sm:mb-[-20px]">
+              send us a message
+            </span>
+            <ContactForm />
+          </div>
         </div>
-        <div className="font-medium text-[18px] leading-[24px] tracking-wider text-grey">
-          Reach out to us today to discover how our IT services can elevate your healthcare organization to new heights.
-        </div>
-        <ContactForm />
-        <div className="max-w-xl my-8 text-grey font-medium rounded-md underline">
+
+        <div className="max-w-xl my-8 text-grey font-medium rounded-md underline sm:hidden">
           <div>
             <a href="mailto:conact@plenitudosolutions.com">conact@plenitudosolutions.com</a>
           </div>
@@ -272,8 +305,15 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className="hidden">Plenitudo</div>
-        <div className="hidden">solutions</div>
+        {/* footer */}
+        <div className="sm:ml-[-28px] sm:space-y-5 sm:pointer-events-none">
+          <div className="hidden sm:block sm:font-black sm:uppercase sm:text-[260px] sm:leading-[200px] sm:tracking-tighter sm:bottom-[72px]">
+            Plenitudo
+          </div>
+          <div className="hidden sm:block sm:font-light sm:uppercase sm:text-[64px] sm:leading-[60px] sm:tracking-[128px] sm:bottom-[4px] sm:ml-5 sm:pb-5">
+            solutions
+          </div>
+        </div>
       </div>
     </main>
   );
