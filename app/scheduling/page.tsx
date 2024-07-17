@@ -21,7 +21,7 @@ export default function Scheduling() {
         <ContactForm />
       </div>
       {/* web */}
-      <div className="sm:h-screen h-full w-screen sm:flex flex-row justify-center items-center pt-28 pb-10 px-5 gap-5 hidden">
+      <div className="sm:h-screen h-full w-screen sm:flex flex-row justify-center items-center pt-28 pb-10 px-5 gap-5 hidden 2xl:gap-20">
         <div className="w-[600px]">
           <Calendly />
         </div>

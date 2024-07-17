@@ -30,7 +30,7 @@ export default function Home() {
             height={1000}
           />
           <div className="relative z-10 flex flex-col justify-center items-start text-center px-4">
-            <div className="text-black font-semibold text-left text-[24px] sm:text-[48px] sm:w-[800px] sm:leading-[40px] leading-[24px] mb-5">
+            <div className="text-black font-semibold text-left text-[24px] sm:text-[48px] sm:w-[800px] sm:leading-[40px] leading-[24px] mb-5 2xl:w-[1000px] 2xl:text-[60px] 2xl:leading-[54px]">
               Empowering seamless healthcare experiences with cutting-edge technology
             </div>
             <div
@@ -40,7 +40,7 @@ export default function Home() {
               view services
             </div>
           </div>
-          <div className="text-black font-black text-[76px] leading-[64px] absolute bottom-5 ml-3 sm:ml-0 sm:bottom-[60px] sm:text-[140px] sm:leading-[100px]">
+          <div className="text-black font-black text-[76px] leading-[64px] absolute bottom-5 ml-3 sm:ml-0 sm:bottom-[60px] sm:text-[140px] sm:leading-[100px] 2xl:text-[188px] 2xl:leading-[160px]">
             Plenitudo Solutions
           </div>
         </div>
@@ -48,10 +48,10 @@ export default function Home() {
 
       {/* about */}
       <div
-        className="h-full w-screen flex flex-col sm:flex-row justify-start sm:items-center items-start pt-32 sm:pt-20 px-5 sm:px-10 gap-1 sm:gap-5"
+        className="h-full w-screen flex flex-col sm:flex-row justify-start sm:items-center items-start pt-32 sm:pt-20 px-5 sm:px-10 gap-1 sm:gap-5 2xl:px-12 2xl:pt-10"
         id="about"
       >
-        <div className="sm:w-[700px] sm:h-[400px] sm:space-y-5">
+        <div className="sm:w-[700px] sm:h-[400px] sm:space-y-5 2xl:w-[800px] 2xl:mr-10">
           <div className="text-greenpl font-bold text-[16px] sm:text-[20px] uppercase">Empowering healthcare</div>
           <div className="font-bold text-[24px] leading-[30px] tracking-wide sm:text-[48px] sm:leading-[40px]">
             Revolutionizing Healthcare Solutions
@@ -72,7 +72,7 @@ export default function Home() {
         <Image
           src="/images/about-main.jpg"
           alt="Background"
-          className="mx-auto sm:w-[674px] sm:h-[786px] w-full h-[440px] object-cover object-center"
+          className="mx-auto sm:w-[674px] sm:h-[786px] 2xl:w-[1000px] 2xl:h-[1000px] w-full h-[440px] object-cover object-center"
           width={1000}
           height={1000}
         />
@@ -80,7 +80,7 @@ export default function Home() {
 
       {/* services */}
       <div
-        className="h-full w-screen flex flex-col justify-start items-start pt-32 sm:pt-20 px-5 sm:px-10 gap-1"
+        className="h-full w-screen flex flex-col justify-start items-start pt-32 sm:pt-20 px-5 sm:px-10 gap-1 2xl:px-12"
         id="services"
       >
         <div className="sm:w-[1060px] sm:space-y-5 sm:mb-5">
@@ -95,13 +95,13 @@ export default function Home() {
         </div>
 
         {/* grid */}
-        <div className="grid sm:grid-row-3 sm:grid-cols-3 grid-cols-1 gap-5 pt-5">
+        <div className="grid sm:grid-row-3 sm:grid-cols-3 grid-cols-1 gap-5 pt-5 2xl:w-full">
           {/* 1 */}
           <div className="sm:space-y-1">
             <Image
               src="/images/telemedicine_solution.jpg"
               alt="Background"
-              className="mx-auto sm:w-[450px] sm:h-[390px] w-[400px] h-[350px] object-cover object-center rounded-xl"
+              className="mx-auto sm:w-[450px] sm:h-[390px] w-[400px] h-[350px] 2xl:w-[600px] 2xl:h-[525px] 2xl:mx-0 2xl:w-[480px] 2xl:h-[420px] 2xl:mx-0 object-cover object-center rounded-xl"
               width={1000}
               height={1000}
             />
@@ -126,7 +126,7 @@ export default function Home() {
             <Image
               src="/images/data-security-services.jpg"
               alt="Background"
-              className="mx-auto sm:w-[450px] sm:h-[390px] w-[400px] h-[350px] object-cover object-center rounded-xl"
+              className="mx-auto sm:w-[450px] sm:h-[390px] w-[400px] h-[350px] 2xl:w-[600px] 2xl:h-[525px] 2xl:mx-0 object-cover object-center rounded-xl"
               width={1000}
               height={1000}
             />
@@ -151,7 +151,7 @@ export default function Home() {
             <Image
               src="/images/healthcare-analytics-solutions.jpg"
               alt="Background"
-              className="mx-auto sm:w-[450px] sm:h-[390px] w-[400px] h-[350px] object-cover object-center rounded-xl"
+              className="mx-auto sm:w-[450px] sm:h-[390px] w-[400px] h-[350px] 2xl:w-[600px] 2xl:h-[525px] 2xl:mx-0 object-cover object-center rounded-xl"
               width={1000}
               height={1000}
             />
@@ -176,7 +176,7 @@ export default function Home() {
             <Image
               src="/images/appointment-scheduling-system.jpg"
               alt="Background"
-              className="mx-auto sm:w-[450px] sm:h-[390px] w-[400px] h-[350px] object-cover object-center rounded-xl"
+              className="mx-auto sm:w-[450px] sm:h-[390px] w-[400px] h-[350px] 2xl:w-[600px] 2xl:h-[525px] 2xl:mx-0 object-cover object-center rounded-xl"
               width={1000}
               height={1000}
             />
@@ -201,7 +201,7 @@ export default function Home() {
             <Image
               src="/images/remote-monitoring-solutions.jpg"
               alt="Background"
-              className="mx-auto sm:w-[450px] sm:h-[390px] w-[400px] h-[350px] object-cover object-center rounded-xl"
+              className="mx-auto sm:w-[450px] sm:h-[390px] w-[400px] h-[350px] 2xl:w-[600px] 2xl:h-[525px] 2xl:mx-0 object-cover object-center rounded-xl"
               width={1000}
               height={1000}
             />
@@ -226,7 +226,7 @@ export default function Home() {
             <Image
               src="/images/ehr-integration-services.jpg"
               alt="Background"
-              className="mx-auto sm:w-[450px] sm:h-[390px] w-[400px] h-[350px] object-cover object-center rounded-xl"
+              className="mx-auto sm:w-[450px] sm:h-[390px] w-[400px] h-[350px] 2xl:w-[600px] 2xl:h-[525px] 2xl:mx-0 object-cover object-center rounded-xl"
               width={1000}
               height={1000}
             />
@@ -254,7 +254,7 @@ export default function Home() {
         className="h-full w-screen flex flex-col justify-start items-start pt-32 sm:pt-10 px-5 sm:px-10 gap-1 sm:relative"
         id="contact"
       >
-        <div className="sm:flex sm:justify-start sm:items-start sm:w-full">
+        <div className="sm:flex sm:justify-start sm:items-start sm:w-full 2xl:justify-between">
           {/* contact content */}
           <div className="sm:w-[700px] sm:h-[200px] sm:pt-10 sm:mr-20">
             <div className="text-greenpl font-bold text-[16px] uppercase sm:lowercase sm:text-[64px]">get in touch</div>
@@ -267,8 +267,8 @@ export default function Home() {
             </div>
 
             {/* company info web */}
-            <div className="max-w-xl my-8 text-grey font-medium hidden sm:block sm:pt-32">
-              <div className="font-bold text-[24px] leading-[30px] tracking-wide sm:text-[20px] sm:leading-[20px] sm:uppercase sm:text-black sm:pb-5">
+            <div className="max-w-xl my-8 text-grey font-medium hidden sm:block sm:pt-32 2xl:my-10 2xl:text-[20px]">
+              <div className="font-bold text-[24px] leading-[30px] tracking-wide sm:text-[20px] sm:leading-[20px] sm:uppercase sm:text-black sm:pb-5 2xl:text-[24px]">
                 Plenitudo Online Services Private Limited
               </div>
               <div className="underline">
@@ -284,7 +284,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="sm:flex sm:flex-col sm:justify-center sm:mt-[72px]">
+          <div className="sm:flex sm:flex-col sm:justify-center sm:mt-[72px] 2xl:w-[700px]">
             <span className="hidden sm:block sm:text-center sm:text-black sm:text-[24px] sm:font-semibold sm:uppercase sm:mb-[-20px]">
               send us a message
             </span>
@@ -306,11 +306,11 @@ export default function Home() {
           </div>
         </div>
         {/* footer */}
-        <div className="sm:ml-[-28px] sm:space-y-5 sm:pointer-events-none">
-          <div className="hidden sm:block sm:font-black sm:uppercase sm:text-[260px] sm:leading-[200px] sm:tracking-tighter sm:bottom-[72px]">
+        <div className="sm:ml-[-28px] sm:space-y-5 sm:pointer-events-none 2xl:mt-10">
+          <div className="hidden sm:block sm:font-black sm:uppercase sm:text-[260px] sm:leading-[200px] sm:tracking-tighter sm:bottom-[72px] 2xl:text-[348px]">
             Plenitudo
           </div>
-          <div className="hidden sm:block sm:font-light sm:uppercase sm:text-[64px] sm:leading-[60px] sm:tracking-[128px] sm:bottom-[4px] sm:ml-5 sm:pb-5">
+          <div className="hidden sm:block sm:font-light sm:uppercase sm:text-[64px] sm:leading-[60px] sm:tracking-[128px] sm:bottom-[4px] sm:ml-5 sm:pb-5 2xl:text-[80px] 2xl:leading-[76px] 2xl:tracking-[176px] 2xl:pt-5 2xl:pb-0">
             solutions
           </div>
         </div>

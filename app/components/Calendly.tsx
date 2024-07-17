@@ -14,11 +14,13 @@ export default function Calendly() {
 
   return (
     <>
+      {/* mobile */}
       <div
         className="calendly-inline-widget sm:hidden"
         data-url="https://calendly.com/srjezza/test"
         style={{ minWidth: '350px', height: '700px' }}
       ></div>
+      {/* 1440 */}
       <div
         className="calendly-inline-widget hidden sm:block"
         data-url="https://calendly.com/srjezza/test"
