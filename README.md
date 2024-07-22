@@ -27,3 +27,8 @@ Welcome to Plenitudo Solutions, revolutionizing healthcare solutions! This proje
 ## Deployment
 
 This project is automatically deployed on Vercel. Any changes pushed to the main branch will trigger a new deployment.
+
+## Issues
+
+May need to refactor code for Calendly
+Potential viewport on macbook web browser for text of titles are incorrect
