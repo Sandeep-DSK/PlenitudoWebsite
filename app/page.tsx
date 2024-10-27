@@ -272,7 +272,7 @@ export default function Home() {
                 Plenitudo Online Services Private Limited
               </div>
               <div className="underline">
-                <a href="mailto:conact@plenitudosolutions.com">conact@plenitudosolutions.com</a>
+                <a href="mailto:conact@plenitudosolutions.com">contact@plenitudosolutions.com</a>
               </div>
               <div className="underline">
                 <a
