@@ -294,7 +294,7 @@ export default function Home() {
 
         <div className="max-w-xl my-8 text-grey font-medium rounded-md underline sm:hidden">
           <div>
-            <a href="mailto:conact@plenitudosolutions.com">contact@plenitudosolutions.com</a>
+            <a href="mailto:contact@plenitudosolutions.com">contact@plenitudosolutions.com</a>
           </div>
           <div>
             <a
