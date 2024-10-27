@@ -298,10 +298,10 @@ export default function Home() {
           </div>
           <div>
             <a
-              href="https://www.google.com/maps/search/?api=1&query=Visakhapatnam,+Andhra+Pradesh+India"
+              href="https://maps.app.goo.gl/u7BvspHNEU5NxH2c9"
               target="_blank"
             >
-              Visakhapatnam, Andhra Pradesh India
+              Visakhapatnam, Andhra Pradesh, India
             </a>
           </div>
         </div>
