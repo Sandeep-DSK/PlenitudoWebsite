@@ -17,7 +17,7 @@ export default function Calendly() {
       {/* mobile */}
       <div
         className="calendly-inline-widget sm:hidden"
-        data-url="https://calendly.com/srjezza/test"
+        data-url="https://calendly.com/plenitudoonlineservices/30min"
         style={{ minWidth: '350px', height: '700px' }}
       ></div>
       {/* 1440 */}
